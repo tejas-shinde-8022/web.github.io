@@ -1,0 +1,55 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply basic styles to the page */
+body {
+  /* background-image: url("impg.jpg"); */
+  font-family: Arial, sans-serif;
+  background-color: rgb(241, 167, 238);
+  line-height: 1.6;
+}
+
+header {
+  background-color: #ed7c7c;
+  color: #0d0d0d;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: #ed7c7c;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: #100f0f;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #984450;
+  color: #fff;
+}
+
+section {
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+footer {
+  background-color: #ed7c7c;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
